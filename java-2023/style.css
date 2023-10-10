@@ -1,0 +1,361 @@
+
+*   ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+    /* cabecera*/
+   
+.li{
+    text-decoration: dimgray;
+}  
+
+
+
+}
+
+
+.body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+    
+}
+.header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: dimgray;
+    top: 0;
+    left: 0;
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    max-width: 90px;
+    margin: auto;
+
+}
+
+
+.codoacodo.png{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40 px;
+    line-height: 80px;
+
+    
+
+    /*fin de cabecera*/
+
+
+    /*cuerpo de  página*/
+}
+ .img{
+    filter: brightness(95%);
+    
+ }
+
+ .p {
+    height: 150px;
+    width: 150px;
+    left: 50px;
+    position: relative;
+    top: -50px;
+    color:white;
+ }
+ 
+ 
+ container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    text-align: right;
+
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+    color: white;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    font-size: 16px;
+  }
+  
+  .contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    
+
+}
+
+   
+.material-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .material-button__button {
+    width: 200px;
+    height: 100px;
+    background-color: #673ab7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+  }
+
+
+  
+.nav-link{
+    color:white;
+    text-decoration: none;
+
+}
+.nav-menu {
+    display: flex;
+    margin-right: 40px ;
+    list-style: none; 
+
+}
+
+.nav-menu-item{
+    font-size:20px;
+    margin: 0 10px;
+    line-height: 80px;
+   width: max-content;
+    display: inline-block;
+    background-color: dimgrey;
+
+
+   font-weight:bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.wrapper{
+    width:100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.contenido { 
+    background: image ba1 jpg;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    color:green;
+    padding: 75px;
+}
+#header h1{
+
+    font-size: 48px;
+    color: #000;
+}
+
+
+
+.img codoacodo.png{
+    width: 20%;
+    height: 25%;
+    margin: 0%;
+    padding: auto;
+    
+}
+
+
+
+.btn{
+    background-color: dimgrey;
+    padding: 15px 25px;
+    color: green;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0px;
+
+}   
+
+.btn:hover{
+    background-color: green;
+}
+
+.btn-success{
+    --btn-btn-color:#fff;
+   --btn-bg: #198754;
+   --btn-border-color: #198754;
+   --btn-hover-c○lor:#fff;
+
+}
+
+.button-btn-colorverde{
+
+    color:#fff;
+    border: 0px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #198754;
+    
+
+
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    .active{
+        background-color: dimgrey;
+    }
+  }
+
+
+.body{
+    font-family: Roboto, sans-serif;
+    font-size: 16 px;
+    line-height: 1.5;
+    background-color: dimgrey;
+
+}
+.container{
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: 200px auto;
+    border-radius: 20px;
+    box-sizing: 0px;
+}
+.container img ba1jpg{
+    width: 100%;
+    height: 100%;
+    position: relative              ;
+
+}
+.container p{
+    font-size: 3rem;
+    color:white;
+    position:absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-80%, -80%);
+
+
+}
+
+/* PIE DE PAGINA*/
+
+
+.element.style{
+
+}
+
+.mt-3{
+    margin-top: 1rem!important;
+}
+
+.justify-content-center{
+    justify-content: center!important;
+
+}
+
+.d-flex{
+
+
+    display: flex!important;
+}
+
+
+.container, .container-fluid, .container-lg, .container-md, .container-xl, .container-xxl{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer{
+    background: linear-gradient(90deg, rgba(29,57,71,255),rgba(30,81,110,255));
+    height: 100%;
+    
+}
+
+
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
+    text-decoration: none;
+
+
+}
+
+.text-center {
+    text-align: center!important;
+    text-decoration: none;
+
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.enlaces-footer{
+    text-decoration: none;
+    color:#fff;
+    }
+}
